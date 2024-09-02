@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="eRegistrar - A Spring Boot web application">
+    <meta name="author" content="Your Name">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.2/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-EmRcsPP774S9MOi4ywB+JXUWjYnBdyInMzG2XsC5siZEUpexqxOMJW358dCYEjPu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/master.css}">
+    <title>eRegistrar - A Demo Spring Boot Web Application</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a style="padding-right: 2em;" class="navbar-brand" href="/eregistrar/home">eRegistrar : : : A Basic Demo Web Application Using Spring Boot</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" style="border-left: white 1px solid; padding-left: 2em; padding-right: 2em;">
+                <a class="nav-link" href="/eregistrar/book/list">Browse Books</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <!-- Additional form elements or buttons can be added here -->
+        </form>
+    </div>
+</nav>
+
+<p>&nbsp;</p>
+<div class="container">
+    <h3>Welcome to the eRegistrar Management System</h3>
+    <hr/>
+    <div style="font-size: 1em">
+        To browse and manage the <a href="/eregistrar/book/list">catalogue of Books</a>, please first make sure to read the
+        instructions and key points provided below. Then, click the
+        appropriate menu item, located on the menu-bar above.<br/><br/>
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text
+        ever since the 1500s, when an unknown printer took a galley of type
+        and scrambled it to make a type specimen book. It has survived not
+        only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with
+        the release of Letraset sheets containing Lorem Ipsum passages, and
+        more recently with desktop publishing software like Aldus PageMaker
+        including versions of Lorem Ipsum.
+    </div>
+</div>
+
+<footer class="footer mt-5">
+    <div class="container">
+        <span class="text-muted">Kalkidan : : : eRegistrar</span>
+        <span style="float:right;" class="text-muted">&copy; 2024</span>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK3P6a+P0ZQe21M1z6Rp4zOka1eZoA6jj8lb2VsOT4jL2t7" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UOaN8lM1m5ot0vn5Z/q9EDu4Nxio7/x24ZgV1Bz1n79L1A3rJ8x5FX1eY7jUGXkm" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-tsQxWNBKZNB7b6kB9ZP7wxkxyoJKQ/x1zE0JfO1aX0FZAswE+nvoP5O6D6XrNdKT" crossorigin="anonymous"></script>
+</body>
+</html>
